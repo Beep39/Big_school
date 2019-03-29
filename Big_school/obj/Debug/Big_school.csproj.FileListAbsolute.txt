@@ -80,3 +80,5 @@ c:\users\administrator\documents\visual studio 2015\Projects\Big_school\Big_scho
 c:\users\administrator\documents\visual studio 2015\Projects\Big_school\Big_school\obj\Debug\Big_school.csprojResolveAssemblyReference.cache
 c:\users\administrator\documents\visual studio 2015\Projects\Big_school\Big_school\obj\Debug\Big_school.dll
 c:\users\administrator\documents\visual studio 2015\Projects\Big_school\Big_school\obj\Debug\Big_school.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Big_school\Big_school\obj\Debug\Big_school.Migrations.InitialModel.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Big_school\Big_school\obj\Debug\Big_school.csproj.GenerateResource.Cache
