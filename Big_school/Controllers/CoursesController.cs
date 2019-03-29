@@ -25,5 +25,16 @@ namespace Big_school.Controllers
             };
             return View(ViewModel);
         }
+
+        [Authorize]
+        [HttpPost]
+        public ActionResult Create (CourseViewModel viewModel)
+        {
+            var course = new Course
+            {
+                
+            }
+            return ();
+        }
     }
 }
