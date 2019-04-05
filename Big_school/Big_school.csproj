@@ -214,6 +214,10 @@
     <Compile Include="Migrations\201903290159251_PopulateCategoryTable.Designer.cs">
       <DependentUpon>201903290159251_PopulateCategoryTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904050115420_course model has changed.cs" />
+    <Compile Include="Migrations\201904050115420_course model has changed.Designer.cs">
+      <DependentUpon>201904050115420_course model has changed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -224,6 +228,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModel\CourseViewModel.cs" />
+    <Compile Include="ViewModel\FutureDate.cs" />
+    <Compile Include="ViewModel\ValidTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -307,6 +313,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903290159251_PopulateCategoryTable.resx">
       <DependentUpon>201903290159251_PopulateCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904050115420_course model has changed.resx">
+      <DependentUpon>201904050115420_course model has changed.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

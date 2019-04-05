@@ -12,7 +12,7 @@ namespace Big_school.Models
 
         public ApplicationUser Lecturer { get; set; }
         [Required]
-        public ApplicationUser LecturerId { get; set; }
+        public string LecturerId { get; set; }
         [Required]
         [StringLength(255)]
         public string Place { get; set; }
@@ -22,6 +22,7 @@ namespace Big_school.Models
         [Required]
         public byte CategoryId { get; set; }
 
+        
     }
 
 }
