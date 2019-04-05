@@ -12,6 +12,8 @@ namespace Big_school.Controllers
     public class CoursesController : Controller
     {
         private readonly ApplicationDbContext _dbContext;
+
+       
         public CoursesController()
         {
             _dbContext = new ApplicationDbContext();
@@ -29,6 +31,7 @@ namespace Big_school.Controllers
 
         [Authorize]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(CourseViewModel viewModel)
         {
             if (!ModelState.IsValid)

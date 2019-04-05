@@ -171,3 +171,4 @@ C:\Users\Administrator\Source\Repos\Big_school\Big_school\bin\Microsoft.Owin.Sec
 C:\Users\Administrator\Source\Repos\Big_school\Big_school\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Administrator\Source\Repos\Big_school\Big_school\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Administrator\Source\Repos\Big_school\Big_school\obj\Debug\Big_school.Migrations.coursemodelhaschanged.resources
+C:\Users\Administrator\Source\Repos\Big_school\Big_school\obj\Debug\Big_school.Migrations.AddNameColumnToApplicationUser.resources
